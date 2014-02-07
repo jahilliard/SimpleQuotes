@@ -1,9 +1,5 @@
 SimpleQuotes::Application.routes.draw do
   resources :quotes
-
-  get 'home/index' => 'home#index', as: :home
-  root to: 'home#index'
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
